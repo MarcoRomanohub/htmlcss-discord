@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 600px;
+}
+
+#sfondo-celeste{
+  height: 80px;
+  background-color: #ADD8E6;
+  display: flex;
+  align-items: center;
+}
+
+.container{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.debug{
+  border: 1px dotted rgb(250, 248, 248);
+}
+
+header nav{
+  background-color: #DAA53B ;;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 10px;
+  
+}
+
+
+header nav div ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 50px;
+}
+
+header ul li{
+  padding: 0 10px;
+}
+
+.centrato{
+  width: 250px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.login{
+  justify-content: flex-end;
+}
+
+#jumbotron{
+  height: 520px;
+  width: 100%;
+  background-color: #0A238B;
+  display: flex;
+  align-items: center;
+}
+
+.fucsia{
+  height: 415px;
+  width: 950px;
+  background-color: #EE82EE;
+}
+
+/* main */
+section{
+  height: 620px;
+  
+}
+
+.img{
+  height: 500px;
+  width: 70%;
+  background-color: #2A8FF7;
+}
+
+.testo{
+  height: 500px;
+  width: 30%;
+  background-color: #F6BFCA
+}
+
+.sezione{
+  height: 620px;
+  display: flex;
+  align-items: center;
+}
+
+.reverse{
+  flex-direction: row-reverse;
+}
+
+section.sfondo-grigio{
+  background-color: #D3D3D3
+}
+
+section.big-section{
+  height: 1045px;
+}
+
+.big-img{
+  width:100% ;
+  height: 935px;
+  background-color: #3F8B24;
+}
+
+.sezione-grande{
+  height: 1045px;
+  display: flex;
+  align-items: center;
+}
+
+/* Footer */
+.sfondo-scuro{
+  background-color: #23272A;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.top-footer{
+  height:620px ;
+  display: flex;
+  padding-top: 5px;
+  border-bottom: 1px solid white;
+}
+
+
+
+.social{
+  width: 370px;
+  height: 580px;
+  background-color: #F08080;
+  border: 1px dotted black;
+}
+
+footer .menues nav{
+  width: 150px;
+  height: 580px;
+  border: 1px dotted white;
+  background-color: #4DB3AB;
+}
+
+.top-footer .container{
+  display: flex;
+  
+}
+
+.bottom-footer{
+  background-color: #7CF8D3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 83px;
+  width: 100%;
+  margin-top: 20px;
+  
+  
+}
+
+.logo-footer, .registrazione{
+  background-color: #F5B6C1;
+  border: 1px dotted black ;
+  padding: 0 10px;
+}
