@@ -8,44 +8,28 @@ header{
   height: 600px;
 }
 
-#sfondo-celeste{
+#header-top{
   height: 80px;
-  background-color: #ADD8E6;
+  background-color: #3161E0;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
-.container{
-  max-width: 80%;
-  margin: 0 auto;
+.d-flex{
+  display: flex;
 }
 
 .debug{
   border: 1px dotted rgb(250, 248, 248);
 }
 
-header nav{
-  background-color: #DAA53B ;;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 50px;
-  padding: 0 10px;
-  
-}
+.button-type{
+  background-color: white;
+  padding: 8px 10px;
+  border-radius: 20px;
+  border: none;
 
-
-header nav div ul{
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 450px;
-  height: 50px;
-}
-
-header ul li{
-  padding: 0 10px;
 }
 
 .centrato{
@@ -55,9 +39,45 @@ header ul li{
   align-items: center;
 }
 
+header .logo{
+  justify-content: flex-start;
+}
+
+header nav{
+  /* background-color: #DAA53B ; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  width: 600px
+  /* padding: 0 10px; */
+  
+}
+.container{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+header nav ul{
+  list-style: none;
+  display: flex;
+  /* justify-content: center;inutile */
+  align-items: center;
+  width: 500px;
+  height: 50px;
+}
+
+#header-top nav ul li{
+  padding:  0 15px;
+  color: white;
+}
+
+
+
 .login{
   justify-content: flex-end;
 }
+
 
 #jumbotron{
   height: 520px;
@@ -72,6 +92,10 @@ header ul li{
   width: 950px;
   background-color: #EE82EE;
 }
+
+
+
+
 
 /* main */
 section{
@@ -126,9 +150,6 @@ section.big-section{
   background-color: #23272A;
 }
 
-.d-flex{
-  display: flex;
-}
 
 .top-footer{
   height:620px ;
